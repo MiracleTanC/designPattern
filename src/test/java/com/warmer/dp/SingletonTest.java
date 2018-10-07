@@ -9,6 +9,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import com.warmer.dp.common.AbstractApplePhoneService;
 import com.warmer.dp.common.AbstractHuaweiPhoneService;
 import com.warmer.dp.common.AbstractOppoPhoneService;
+import com.warmer.dp.common.Singleton;
 import com.warmer.dp.service.PhoneService;
 
 @RunWith(SpringRunner.class)
@@ -24,6 +25,7 @@ public class SingletonTest {
 	 */
 	@Test
 	public void Do() {
-		
+		//断点进去调试
+		Singleton s=Singleton.getInstance();
 	}
 }
