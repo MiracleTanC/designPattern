@@ -11,4 +11,9 @@ public class OrderDetailServiceImpl implements OrderDetailService{
 		System.out.println("保存明细表");
 	}
 
+	@Override
+	public void IsContanisProduct() {
+		System.out.println("是否包含");
+	}
+
 }
